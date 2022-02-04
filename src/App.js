@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import PortfolioLayoutsTypeTenth from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeTenth/PortfolioLayoutsTypeTenth";
+import HeroLayoutsTypeFirst from "./layouts/HeroLayouts/HeroLayoutsTypeFirst/HeroLayoutsTypeFirst";
+import HeroLayoutsTypeSixth from "./layouts/HeroLayouts/HeroLayoutsTypeSixth/HeroLayoutsTypeSixth";
+import HeroLayoutsTypeSecond from "./layouts/HeroLayouts/HeroLayoutsTypeSecond/HeroLayoutsTypeSecond";
+import HeroLayoutsTypeThird from "./layouts/HeroLayouts/HeroLayoutsTypeThird/HeroLayoutsTypeThird";
+import HeroLayoutsTypeFourth from "./layouts/HeroLayouts/HeroLayoutsTypeFourth/HeroLayoutsTypeFourth";
+import HeroLayoutsTypeFifth from "./layouts/HeroLayouts/HeroLayoutsTypeFifth/HeroLayoutsTypeFifth";
+import BlogLayoutsTypeSecond from "./layouts/Blog/BlogLayoutsTypeSecond/BlogLayoutsTypeSecond";
+import BlogLayoutsTypeNinth from "./layouts/Blog/BlogLayoutsTypeNinth/BlogLayoutsTypeNinth";
+import BlogLayoutsTypeEighth from "./layouts/Blog/BlogLayoutsTypeEighth/BlogLayoutsTypeEighth";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BlogLayoutsTypeEighth/>
+      <BlogLayoutsTypeNinth/>
     </div>
   );
 }

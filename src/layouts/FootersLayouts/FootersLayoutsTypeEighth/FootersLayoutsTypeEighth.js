@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import {Container, Col , Row} from "reactstrap";
 
 import {Google, LinkedIn, Twitter, AppLogo} from "../../../components/Icons/Icons";

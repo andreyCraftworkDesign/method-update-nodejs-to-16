@@ -3,10 +3,9 @@ import classes from "./Header.module.css"
 import {Nav, Navbar, Form, FormControl} from "react-bootstrap";
 import {MethodLogotype, Cart, UserBordered} from "../../../../components/Icons/Icons";
 import Socials from "../Socials/Socials";
-import {Input, Badge, Dropdown, List, Collapse} from 'antd';
+import {Badge, Dropdown, List, Collapse} from 'antd';
 import {Col, Container, Row} from "reactstrap";
 import {MinusOutlined, PlusOutlined} from "@ant-design/icons";
-const { Search } = Input;
 const { Panel } = Collapse;
 
 /*data*/
@@ -127,10 +126,6 @@ const dataOccasions = [
     }
 ];
 
-function callback(key) {
-    console.log(key);
-}
-
 const menu = (
     <Container className={classes.menuContainer}>
         <Row>
@@ -224,7 +219,7 @@ const Header = (props) => {
                     </div>
 
                     <div className={classes.search}>
-                        <a onClick={props.trigger}>
+                        <a onClick={props.trigger} href="/">
                             <Badge dot={props.subtotal > 0}>
                                 <Cart/>
                             </Badge>
@@ -243,14 +238,14 @@ const Header = (props) => {
                         </Navbar.Brand>
                         <div className={classes.active}>
                             <Dropdown overlay={menu} overlayClassName={`${classes.dropdown}  ${(props.dark) ? `${classes.dark}` : ''}`}>
-                                <a className={classes.link} onClick={e => e.preventDefault()}>
+                                <a className={classes.link} onClick={e => e.preventDefault()}  href="/">
                                     Shop
                                 </a>
                             </Dropdown>
                             <a className={classes.link}>
                                 Account
                             </a>
-                            <a className={classes.link} onClick={props.trigger}>
+                            <a className={classes.link} onClick={props.trigger}  href="/">
                                 Cart ({props.count})
                             </a>
                         </div>
@@ -318,7 +313,7 @@ const Header = (props) => {
                                 </Panel>
                             </Collapse>
 
-                            <a className={classes.user}>
+                            <a className={classes.user}  href="/">
                                 <UserBordered/> Аccount
                             </a>
                             <Form className="form">

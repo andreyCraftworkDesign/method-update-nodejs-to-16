@@ -149,7 +149,6 @@ class  MenuLayoutsTypeThird extends Component {
                                         onClose={this.onClose}
                                         visible={this.state.visible}
                                         className={`${classes.drawer} ${(this.props.dark) ? `${classes.dark}` : ''}`}
-                                        closable={true}
                                         mask={false}
                                     >
                                         <div className={classes.products}>

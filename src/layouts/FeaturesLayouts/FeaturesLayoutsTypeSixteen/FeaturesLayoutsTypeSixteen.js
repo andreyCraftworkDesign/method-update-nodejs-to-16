@@ -25,11 +25,11 @@ function FeaturesLayoutsTypeSixteen (props) {
                                 <Fade down triggerOnce={true}>
                                     {props.dark === true ?
                                         <>
-                                            <img src={mockupDark}/>
+                                            <img src={mockupDark} alt="placeholder"/>
                                         </>
                                         :
                                         <>
-                                            <img src={mockup}/>
+                                            <img src={mockup} alt="placeholder"/>
                                         </>
                                     }
                                 </Fade>

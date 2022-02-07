@@ -1,8 +1,6 @@
 import React from "react";
 import classes from './Aside.module.css';
-import Button from "../../../../components/Button/Button";
 
-const title = "Order Summary";
 const delivery = "15.00"
 
 const Aside = (props) => {
@@ -24,7 +22,7 @@ const Aside = (props) => {
                 </div>
                 <div className={classes.bottom}>
                     {(+props.subtotal) + (+delivery) > +delivery &&
-                    <a className={classes.link}>
+                    <a className={classes.link} href="/">
                         <span>${((+props.subtotal) + (+delivery)).toFixed(2)}</span>
                         <span>Add to Cart</span>
                     </a>

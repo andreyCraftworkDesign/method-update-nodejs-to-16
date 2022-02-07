@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Tweet.module.css';
 import {Twitter} from "../../../../components/Icons/Icons";
-import {Container, Col , Row} from "reactstrap";
+import {Col , Row} from "reactstrap";
 
 const Tweet = (props) => {
     return (

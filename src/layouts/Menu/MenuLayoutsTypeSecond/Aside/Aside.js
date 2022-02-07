@@ -22,7 +22,7 @@ const Aside = (props) => {
                 </div>
                 <div className={classes.bottom}>
                     {(+props.subtotal) + (+delivery) > +delivery &&
-                    <a className={classes.link}>
+                    <a className={classes.link} href="/">
                         <span>${((+props.subtotal) + (+delivery)).toFixed(2)}</span>
                         <span>Add to Cart</span>
                     </a>

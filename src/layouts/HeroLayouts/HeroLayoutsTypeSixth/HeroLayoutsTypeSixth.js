@@ -1,7 +1,7 @@
-import React, {Component} from "react";
+import React from "react";
 
 import {Container, Col , Row} from "reactstrap";
-import {ArrowLeft, ArrowRight, SimpleLeftArrow} from "../../../components/Icons/Icons";
+import {ArrowRight} from "../../../components/Icons/Icons";
 import Button from "../../../components/Button/Button";
 
 import firstMockup from "../../../img/IphoneXS.png";
@@ -19,7 +19,6 @@ const descriptionText = 'Create screens directly in Method or add your images fr
 const baseLinkText = 'Get Started';
 
 function HeroLayoutsTypeSixth(props) {
-
 
     return (
         <React.Fragment>
@@ -58,7 +57,6 @@ function HeroLayoutsTypeSixth(props) {
                                         </>
                                         :
                                         <>
-
                                             <img src={firstMockup }
                                                  style={{top: "80px" , right: "230px", zIndex: "999"}}
                                                  alt=""
@@ -107,7 +105,6 @@ function HeroLayoutsTypeSixth(props) {
                         </Row>
                     </Container>
                 </div>
-
             </section>
         </React.Fragment>
     )

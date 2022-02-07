@@ -179,7 +179,7 @@ class EcommerceLayoutsTypeSeventh extends Component {
     onButtonClickHandler = (event) => {
         const card = this.state.products;
         const listItems = card.filter((element) => {
-                if (element.category == this.state.activeCategory) {
+                if (element.category === this.state.activeCategory) {
                     return true
                 }
             }
@@ -198,7 +198,7 @@ class EcommerceLayoutsTypeSeventh extends Component {
 
         const card = this.state.products;
         const listItems = card.filter((element) => {
-                if (element.category == this.state.activeCategory) {
+                if (element.category === this.state.activeCategory) {
                     return true
                 }
             }
@@ -218,7 +218,7 @@ class EcommerceLayoutsTypeSeventh extends Component {
                                     />
                                     :
                                     <img
-                                        src={this.props.dark == true ? pictureDark : picture}
+                                        src={this.props.dark === true ? pictureDark : picture}
                                         alt="placeholder"
                                     />
                                 }

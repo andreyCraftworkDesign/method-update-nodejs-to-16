@@ -18,7 +18,7 @@ const SimpleForm = (props) => {
                     <CustomInput
                         classes={`col-lg-3 col-md-12 ${classes.item} ${props.classes}`}
                         controlId="FormInputName"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         name="name"
                         placeholder="Username"
                         simple={false}
@@ -30,7 +30,7 @@ const SimpleForm = (props) => {
                         controlId="FormInputEmail"
                         type="email"
                         name="name"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="E-mail"
                         simple={false}
                         leftIcon={true}
@@ -41,7 +41,7 @@ const SimpleForm = (props) => {
                         controlId="FormInputPhone"
                         type="phone"
                         name="name"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Phone"
                         simple={false}
                         leftIcon={true}

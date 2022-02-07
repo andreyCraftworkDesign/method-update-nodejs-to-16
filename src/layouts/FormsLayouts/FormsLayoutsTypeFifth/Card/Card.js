@@ -18,7 +18,7 @@ const Card = (props) => {
                             width="60"
                             height="60"
                             src={props.image}
-                            alt=""
+                            alt="placeholder"
                         />
                     </a>
                 </div>
@@ -29,7 +29,7 @@ const Card = (props) => {
                     <p className={classes.price}>${props.price}</p>
                 </div>
                 <div className={classes.closeWrapper}>
-                    <a onClick={props.onDelete} className={classes.close}>
+                    <a onClick={props.onDelete} className={classes.close} href="/some-link">
                         <Close/>
                     </a>
                 </div>

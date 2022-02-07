@@ -20,7 +20,7 @@ function FootersLayoutsTypeFirst (props) {
                         <Row>
                             <Col lg="1" md="1">
                                 <Fade top triggerOnce={true}>
-                                    <a href="#">
+                                    <a href="/">
                                         <AppLogo/>
                                     </a>
                                 </Fade>
@@ -32,13 +32,13 @@ function FootersLayoutsTypeFirst (props) {
                                             <header>About</header>
                                             <ul className={classes.companyList}>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Become Affiliate</a>
+                                                    <a href="/">Become Affiliate</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Go Unlimited</a>
+                                                    <a href="/">Go Unlimited</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Services</a>
+                                                    <a href="/">Services</a>
                                                 </li>
                                             </ul>
                                         </Fade>
@@ -48,22 +48,22 @@ function FootersLayoutsTypeFirst (props) {
                                             <header>Products</header>
                                             <ul className={classes.companyList}>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Design Systems</a>
+                                                    <a href="/">Design Systems</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Themes & Templates</a>
+                                                    <a href="/">Themes & Templates</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Mockups</a>
+                                                    <a href="/">Mockups</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Presentations</a>
+                                                    <a href="/">Presentations</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Wireframes Kits</a>
+                                                    <a href="/">Wireframes Kits</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">UI Kits</a>
+                                                    <a href="/">UI Kits</a>
                                                 </li>
                                             </ul>
                                         </Fade>
@@ -73,16 +73,16 @@ function FootersLayoutsTypeFirst (props) {
                                             <header>Legals</header>
                                             <ul className={classes.companyList}>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">License</a>
+                                                    <a href="/">License</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Refund Policy</a>
+                                                    <a href="/">Refund Policy</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">About Us</a>
+                                                    <a href="/">About Us</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Contacts</a>
+                                                    <a href="/">Contacts</a>
                                                 </li>
                                             </ul>
                                         </Fade>
@@ -92,16 +92,16 @@ function FootersLayoutsTypeFirst (props) {
                                             <header>Blog</header>
                                             <ul className={classes.companyList}>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Business Stories</a>
+                                                    <a href="/">Business Stories</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Digital Store</a>
+                                                    <a href="/">Digital Store</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Learning</a>
+                                                    <a href="/">Learning</a>
                                                 </li>
                                                 <li className={classes.companyItem}>
-                                                    <a href="#">Social Media</a>
+                                                    <a href="/">Social Media</a>
                                                 </li>
                                             </ul>
                                         </Fade>
@@ -131,17 +131,17 @@ function FootersLayoutsTypeFirst (props) {
                             <Col lg="3" md="3" className={`ml-auto ${classes.socials}`}>
                                 <Fade top delay={350} triggerOnce={true}>
                                     <Socials dark={props.dark ? true : false}>
-                                            <a href="#/some-link">
+                                            <a href="/some-link">
                                                 <Oval variant="normal">
                                                     <Twitter/>
                                                 </Oval>
                                             </a>
-                                            <a href="#/some-link">
+                                            <a href="/some-link">
                                                 <Oval variant="normal">
                                                     <LinkedIn/>
                                                 </Oval>
                                             </a>
-                                            <a href="#/some-link">
+                                            <a href="/some-link">
                                                 <Oval variant="normal">
                                                     <Google/>
                                                 </Oval>

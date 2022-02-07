@@ -1,5 +1,5 @@
 import React from "react";
-import {Form, FormControl, InputGroup} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import {EmailIcon, UserIcon} from "../../../../components/Icons/Icons";
 import Button from "../../../../components/Button/Button";
 import CustomInput from "../../../../components/CustomInput/CustomInput";
@@ -15,7 +15,7 @@ const SimpleForm = (props) => {
                             classes={`${classes.item} ${props.classes}`}
                             controlId="FormInputEmail"
                             name="name"
-                            dark={(props.dark == true) ?  true : null}
+                            dark={(props.dark === true) ?  true : null}
                             placeholder="Type your e-mail"
                             simple={false}
                             leftIcon={true}
@@ -29,7 +29,7 @@ const SimpleForm = (props) => {
                             classes={`${classes.item} ${props.classes}`}
                             controlId="FormInputName"
                             name="name"
-                            dark={(props.dark == true) ?  true : null}
+                            dark={(props.dark === true) ?  true : null}
                             placeholder="Username"
                             simple={false}
                             leftIcon={true}

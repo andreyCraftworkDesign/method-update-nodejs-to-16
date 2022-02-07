@@ -100,13 +100,13 @@ class BlogLayoutsTypeNinth extends Component {
                                         <div className={classes.socials}>
                                             <div style={{marginBottom: '10px'}}>Share</div>
                                             <SocialsLinks  dark={this.props.dark ? true : false}>
-                                                <a href="#">
+                                                <a href="/">
                                                     <Twitter/>
                                                 </a>
-                                                <a href="#">
+                                                <a href="/">
                                                     <LinkedIn/>
                                                 </a>
-                                                <a href="#">
+                                                <a href="/">
                                                     <Google/>
                                                 </a>
                                             </SocialsLinks>
@@ -158,13 +158,13 @@ class BlogLayoutsTypeNinth extends Component {
                                             </div>
                                             <div className={classes.hiddenSocials}>
                                                 <SocialsLinks  dark={this.props.dark ? true : false}>
-                                                    <a href="#">
+                                                    <a href="/">
                                                         <Twitter/>
                                                     </a>
-                                                    <a href="#">
+                                                    <a href="/">
                                                         <LinkedIn/>
                                                     </a>
-                                                    <a href="#">
+                                                    <a href="/">
                                                         <Google/>
                                                     </a>
                                                 </SocialsLinks>

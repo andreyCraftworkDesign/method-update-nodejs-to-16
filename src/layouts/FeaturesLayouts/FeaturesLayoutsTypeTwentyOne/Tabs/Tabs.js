@@ -1,7 +1,6 @@
 import React from "react";
 import {Col, Row} from "reactstrap";
 import {
-    Assigment,
     Basket,
     Bookmark,
     Email,
@@ -52,7 +51,7 @@ const Tabs = (props) => {
                             </Fade>
                         </Col>
                         <Col sm={4} className="read-more text-right">
-                            <a href="#" >Read More</a>
+                            <a href="/" >Read More</a>
                         </Col>
                         <Col sm={12}>
                             <Fade down delay={100} triggerOnce={true}>

@@ -4,7 +4,7 @@ import Feature from "./Feature/Feature";
 
 import { Container, Col, Row } from "reactstrap";
 
-import { Bookmark, Email, Home, Basket, Extension, Group } from "../../../components/Icons/Icons";
+import { Bookmark, Home, Basket, Extension, Group } from "../../../components/Icons/Icons";
 import Frame from "../../../components/Frame/Frame";
 import { Fade } from "react-awesome-reveal";
 

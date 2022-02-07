@@ -49,7 +49,7 @@ function HeroLayoutsTypeFourth(props) {
                                 </Col>
                                 <Col lg={12} md={12} className={classes.mockupSection}>
                                     <Fade up deyal={100} triggerOnce={true}>
-                                        <img src={props.dark === true ? mockupDark : mockup}/>
+                                        <img src={props.dark === true ? mockupDark : mockup} alt="placeholder"/>
                                     </Fade>
                                 </Col>
                             </Row>

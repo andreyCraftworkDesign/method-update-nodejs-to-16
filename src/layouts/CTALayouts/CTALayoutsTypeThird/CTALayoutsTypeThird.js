@@ -24,7 +24,7 @@ function  CTALayoutsTypeThird (props)  {
                                 <Col lg={{ size: 5, offset: 1 }} md={{ size: 4, offset: 1 }} className={classes.rightColumn}>
                                     <Fade right triggerOnce={true}>
                                                 <img
-                                                    src={ props.dark == true ? mockupDark : mockup}
+                                                    src={ props.dark === true ? mockupDark : mockup}
                                                     width={1100}
                                                     height={685}
                                                     alt=""

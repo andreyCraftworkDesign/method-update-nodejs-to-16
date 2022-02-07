@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 
 import {Container, Col , Row} from "reactstrap";
 import {AppLogo} from "../../../components/Icons/Icons";

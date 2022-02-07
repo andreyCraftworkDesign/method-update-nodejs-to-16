@@ -35,9 +35,9 @@ const CustomInput = (props) => {
                     </InputGroup.Prepend>
                 </InputGroup> : null
             }
-            {simple == 'false' || props.textarea ? null : <Form.Control type={type} placeholder={props.placeholder} name={props.name} required={true}/>}
+            {simple === 'false' || props.textarea ? null : <Form.Control type={type} placeholder={props.placeholder} name={props.name} required={true}/>}
 
-            {props.textarea == true ?  <Form.Control as="textarea" rows={props.rows} name={props.name} placeholder={props.placeholder} /> : null}
+            {props.textarea === true ?  <Form.Control as="textarea" rows={props.rows} name={props.name} placeholder={props.placeholder} /> : null}
 
         </Form.Group>
     )

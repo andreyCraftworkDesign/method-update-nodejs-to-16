@@ -1,5 +1,7 @@
 .PlayButton {
     display: block;
+    border: none;
+    background: none;
 }
 .PlayButton.large {
     width: 68px;

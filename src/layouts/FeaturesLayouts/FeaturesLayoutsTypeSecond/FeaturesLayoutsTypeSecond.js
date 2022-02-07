@@ -8,7 +8,6 @@ import image from "../../../img/Safari.png"
 import imageDark from "../../../img/Safari-dark.png"
 import { Fade } from "react-awesome-reveal";
 
-
 const title = "Method and the tools you love, united";
 const description = "Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!"
 
@@ -35,7 +34,7 @@ function FeaturesLayoutsTypeSecond (props) {
                             </Col>
                             <Col lg="6" md="5" className={classes.rightColumn}>
                                 <Fade  delay={50} triggerOnce={true}>
-                                    {props.dark == true ?
+                                    {props.dark === true ?
                                         <>
                                             <img
                                                 src={imageDark}

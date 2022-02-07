@@ -1,5 +1,5 @@
 import React from "react";
-import {Form, FormControl, InputGroup} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import {Col} from "reactstrap";
 import Button from "../../../../components/Button/Button";
 import 'antd/dist/antd.css';
@@ -15,7 +15,7 @@ const SimpleForm = (props) => {
                         classes={`col-lg-6 col-md-6  ${classes.p15} ${classes.item} ${props.classes}`}
                         controlId="FormInputName"
                         name="name"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Username"
                         simple={true}
                     />
@@ -23,7 +23,7 @@ const SimpleForm = (props) => {
                         classes={`col-lg-6 col-md-6  ${classes.p15} ${classes.item} ${props.classes}`}
                         controlId="FormInputUserEmail"
                         name="name"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Email"
                         simple={true}
                         type="email"
@@ -32,7 +32,7 @@ const SimpleForm = (props) => {
                         classes={`col-12 ${classes.p15} ${classes.item} ${props.classes}`}
                         size="big"
                         controlId="Textarea"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Message"
                         textarea={true}
                         rows={5} />

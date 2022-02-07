@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Container, Col , Row} from "reactstrap";
 
-import {MethodLogotype, AppStore, Google, Twitter, LinkedIn} from "../../../components/Icons/Icons";
+import {MethodLogotype, AppStore} from "../../../components/Icons/Icons";
 import Badge from "../../../components/Badges/Badges";
 import placeholder from "../../../img/placeholder-gray.png";
 import Divider from "../../../components/Divider/Divider";
@@ -31,7 +31,7 @@ class FootersLayoutsTypeTenth extends Component {
         const listItems = card.map((item, index) => {
             return (
                 <a href={item.link} key={index} className={classes.pictureLink}>
-                    <img src={item.picture} alt=""/>
+                    <img src={item.picture} alt="placeholder"/>
                 </a>
             )
         });
@@ -50,7 +50,7 @@ class FootersLayoutsTypeTenth extends Component {
                         <Container>
                             <Row>
                                 <Col lg="3" md="3">
-                                    <a href="#" className={classes.logotype}>
+                                    <a href="/" className={classes.logotype}>
                                         <Fade top triggerOnce={true}>
                                             <MethodLogotype/>
                                         </Fade>
@@ -75,22 +75,22 @@ class FootersLayoutsTypeTenth extends Component {
                                                 <header>Products</header>
                                                 <ul className={classes.companyList}>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">Design Systems</a>
+                                                        <a href="/">Design Systems</a>
                                                     </li>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">Themes & Templates</a>
+                                                        <a href="/">Themes & Templates</a>
                                                     </li>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">Mockups</a>
+                                                        <a href="/">Mockups</a>
                                                     </li>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">Presentations</a>
+                                                        <a href="/">Presentations</a>
                                                     </li>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">Wireframes Kits</a>
+                                                        <a href="/">Wireframes Kits</a>
                                                     </li>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">UI Kits</a>
+                                                        <a href="/">UI Kits</a>
                                                     </li>
                                                 </ul>
                                             </Fade>
@@ -100,16 +100,16 @@ class FootersLayoutsTypeTenth extends Component {
                                                 <header>Legals</header>
                                                 <ul className={classes.companyList}>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">License</a>
+                                                        <a href="/">License</a>
                                                     </li>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">Refund Policy</a>
+                                                        <a href="/">Refund Policy</a>
                                                     </li>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">About Us</a>
+                                                        <a href="/">About Us</a>
                                                     </li>
                                                     <li className={classes.companyItem}>
-                                                        <a href="#">Contacts</a>
+                                                        <a href="/">Contacts</a>
                                                     </li>
                                                 </ul>
                                             </Fade>

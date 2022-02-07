@@ -1,12 +1,10 @@
 import React from "react";
 import classes from "./Header.module.css"
 import {Nav, Navbar, Form, FormControl} from "react-bootstrap";
-import {AppLogo, MethodLogotype} from "../../../../components/Icons/Icons";
+import {AppLogo} from "../../../../components/Icons/Icons";
 import Button from "../../../../components/Button/Button";
 import Socials from "../Socials/Socials";
 import { Input } from 'antd';
-import { Fade } from "react-awesome-reveal";
-import {Col} from "reactstrap";
 const { Search } = Input;
 
 const Header = (props) => {

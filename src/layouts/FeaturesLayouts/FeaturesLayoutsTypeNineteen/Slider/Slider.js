@@ -9,9 +9,6 @@ let featuresNineteenSlider = null;
 let mediaQuerySize = 575;
 
 class Slider extends Component {
-    constructor(props){
-        super(props);
-    }
 
     componentDidMount() {
 

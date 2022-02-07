@@ -90,7 +90,7 @@ function HeroLayoutsTypeFirst (props) {
                                                     <Row>
                                                         <Col>
                                                             <div className={classes.gridWrapper}>
-                                                                <a href="#" className={`normal-text ${classes.hiddenLink} ${classes.link}`}>Contacts</a>
+                                                                <a href="/" className={`normal-text ${classes.hiddenLink} ${classes.link}`}>Contacts</a>
                                                             </div>
                                                         </Col>
                                                     </Row>

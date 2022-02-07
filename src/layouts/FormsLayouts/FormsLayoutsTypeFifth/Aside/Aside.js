@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Aside.module.css';
 import Divider from "../../../../components/Divider/Divider";
-import { Row, Col, Container} from "reactstrap";
+import { Row, Col } from "reactstrap";
 const Aside = (props) => {
     return (
 

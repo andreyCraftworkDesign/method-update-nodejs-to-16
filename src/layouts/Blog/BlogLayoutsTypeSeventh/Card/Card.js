@@ -1,13 +1,12 @@
 import React from "react";
 import classes from "./Card.module.css"
-import { Fade } from "react-awesome-reveal";
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 const Card = (props) => {
-    const { cover, category, reading, title, description, link, custom } = props;
+    const { category, reading, title, link, custom } = props;
     const string = capitalizeFirstLetter(category);
 
     return (

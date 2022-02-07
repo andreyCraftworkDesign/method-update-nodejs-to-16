@@ -131,7 +131,7 @@ class BlogLayoutsTypeThird extends Component {
     renderCards() {
         const card = this.state.posts;
         const listItems = card.filter((element, index) => {
-                if (index < this.state.postForView  && index != 0) {
+                if (index < this.state.postForView  && index !== 0) {
                     return true
                 }
             }

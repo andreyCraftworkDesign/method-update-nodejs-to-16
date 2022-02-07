@@ -17,7 +17,7 @@ const Forms = (props) => {
                             controlId="FormInputEmail"
                             name="name"
                             type="email"
-                            dark={(props.dark == true) ?  true : null}
+                            dark={(props.dark === true) ?  true : null}
                             placeholder="Type your e-mail"
                             simple={false}
                             leftIcon={true}
@@ -27,7 +27,7 @@ const Forms = (props) => {
                             classes={`col-lg-4 ${classes.item} ${props.classes}`}
                             controlId="FormInputName"
                             name="name"
-                            dark={(props.dark == true) ?  true : null}
+                            dark={(props.dark === true) ?  true : null}
                             placeholder="Username"
                             simple={false}
                             leftIcon={true}

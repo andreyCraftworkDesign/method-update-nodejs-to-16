@@ -1,17 +1,10 @@
 import React, {Component} from "react";
-import {Container, Row, Col} from "reactstrap";
+import {Container} from "reactstrap";
 
 import classes from "./MenuLayoutsTypeFourth.module.css"
-import {Fade} from "react-awesome-reveal";
 import Header from "./Header/Header";
 
-
 class  MenuLayoutsTypeFourth extends Component {
-
-    constructor(props) {
-        super(props);
-
-    }
 
     render() {
 

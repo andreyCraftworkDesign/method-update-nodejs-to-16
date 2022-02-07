@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import classes from "./CTALayoutsTypeSecond.module.css"
 import TextButton from "../../../components/Text-Button/Text-Button";
 import {RightArrow} from "../../../components/Icons/Icons";

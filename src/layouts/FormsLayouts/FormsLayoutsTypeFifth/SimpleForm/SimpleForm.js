@@ -1,5 +1,5 @@
 import React from "react";
-import {Form, FormControl, InputGroup} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import {Col} from "reactstrap";
 import classes from "./SimpleForm.module.css"
 import Button from "../../../../components/Button/Button";
@@ -23,7 +23,7 @@ const SimpleForm = (props) => {
                         controlId="formGridFirstName"
                         name="name"
                         label="First Name"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Bakhtiyar"
                     />
                     <CustomInput
@@ -31,7 +31,7 @@ const SimpleForm = (props) => {
                         controlId="formGridLastName"
                         name="name"
                         label="Last Name"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Sattarov"
                     />
                     <CustomInput
@@ -40,7 +40,7 @@ const SimpleForm = (props) => {
                         name="name"
                         label="Email"
                         type="email"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="info@craftwork.design"
                     />
                 </Form.Row>
@@ -57,7 +57,7 @@ const SimpleForm = (props) => {
                         controlId="formGridCompanyName"
                         name="name"
                         label="Company Name"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Craftwork"
                     />
                     <CustomInput
@@ -65,7 +65,7 @@ const SimpleForm = (props) => {
                         controlId="formGridCompanyAdress"
                         name="name"
                         label="Address"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Montreal, 559 Borer Forges, 987000"
                     />
                 </Form.Row>
@@ -88,7 +88,7 @@ const SimpleForm = (props) => {
                         controlId="formGridCity"
                         name="name"
                         label="City"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Montreal"
                     />
 
@@ -97,7 +97,7 @@ const SimpleForm = (props) => {
                         controlId="formGridZip"
                         name="name"
                         label="ZIP Code"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="987000"
                     />
 

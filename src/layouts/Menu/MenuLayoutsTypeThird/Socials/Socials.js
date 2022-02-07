@@ -6,13 +6,13 @@ const Socials = (props) => {
     return (
         <div className="socials">
             <SocialsLinks>
-                <a href="#">
+                <a href="/">
                     <Twitter/>
                 </a>
-                <a href="#">
+                <a href="/">
                     <LinkedIn/>
                 </a>
-                <a href="#">
+                <a href="/">
                     <Google/>
                 </a>
             </SocialsLinks>

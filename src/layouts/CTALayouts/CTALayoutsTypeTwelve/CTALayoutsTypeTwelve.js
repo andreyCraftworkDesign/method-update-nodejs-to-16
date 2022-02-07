@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import classes from "./CTALayoutsTypeTwelve.module.css"
 
 import Button from "../../../components/Button/Button";

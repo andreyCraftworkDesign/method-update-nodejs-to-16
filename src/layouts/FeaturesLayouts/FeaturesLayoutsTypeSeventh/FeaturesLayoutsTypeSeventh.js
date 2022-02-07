@@ -52,7 +52,7 @@ function FeaturesLayoutsTypeSeventh (props) {
                                 </div>
                             </Col>
                             <Col lg={{ size: 6, offset: 1 }} md={{ size: 6}} className={classes.imagesColumn}>
-                                {props.dark == true ?
+                                {props.dark === true ?
                                     <Widgets
                                         dark={true}
                                     /> :

@@ -19,7 +19,7 @@ function CTALayoutsTypeFifth(props) {
                                     title={"The fast & visual way to understand your users"}
                                     description={"Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!"}
                                 >
-                                    <a href="#" style={{display: 'block'}}>
+                                    <a href="/" style={{display: 'block'}}>
                                         <AppLogo/>
                                     </a>
                                 </Content>

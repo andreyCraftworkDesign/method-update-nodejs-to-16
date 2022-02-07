@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Logos.module.css"
-import {Col} from "reactstrap";
 
 const Logos = (props) => {
     return (

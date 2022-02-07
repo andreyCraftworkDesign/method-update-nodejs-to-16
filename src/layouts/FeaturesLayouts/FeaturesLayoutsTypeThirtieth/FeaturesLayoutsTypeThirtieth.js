@@ -29,11 +29,11 @@ function FeaturesLayoutsTypeThirtieth (props) {
                   <Fade top triggerOnce={true} delay={50}>
                       {props.dark === true ?
                           <>
-                            <img className={classes.image}  src={mockupDark} />
+                            <img className={classes.image}  src={mockupDark} alt="placeholder" />
                           </>
                           :
                           <>
-                            <img className={classes.image} src={mockup} />
+                            <img className={classes.image} src={mockup } alt="placeholder" />
                           </>
                       }
                   </Fade>

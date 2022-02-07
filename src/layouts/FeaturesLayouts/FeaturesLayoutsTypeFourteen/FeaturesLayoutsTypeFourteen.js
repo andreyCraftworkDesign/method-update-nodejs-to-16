@@ -25,7 +25,7 @@ function FeaturesLayoutsTypeFourteen (props) {
                             </Col>
                             <Col className={classes.secondLevel}>
                                 <Fade up delay={50} triggerOnce={true}>
-                                    {props.dark == true ?
+                                    {props.dark === true ?
                                         <>
                                             <img
                                                 src={imageDark}

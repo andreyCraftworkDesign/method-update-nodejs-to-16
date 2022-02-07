@@ -1,15 +1,10 @@
 import React, {Component} from "react";
-import {Container, Row, Col} from "reactstrap";
+import {Container} from "reactstrap";
 
 import classes from "./MenuLayoutsTypeFifth.module.css"
 import Header from "./Header/Header";
 
 class  MenuLayoutsTypeFifth extends Component {
-
-    constructor(props) {
-        super(props);
-
-    }
 
     render() {
 

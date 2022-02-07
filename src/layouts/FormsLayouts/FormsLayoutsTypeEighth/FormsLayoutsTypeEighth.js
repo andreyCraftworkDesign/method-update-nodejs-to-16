@@ -40,7 +40,7 @@ function FormsLayoutsTypeEighth (props) {
                                             <Row>
                                                 <Col className={`col-12 ${classes.headerCol} d-flex justify-content-between align-items-center`}>
                                                     <h2>Get Method 3.0 Today</h2>
-                                                    <a href="#" className={`text-right ${classes.loginLink}`}>Login</a>
+                                                    <a href="/" className={`text-right ${classes.loginLink}`}>Login</a>
                                                 </Col>
                                                 <Col className={`col-12 ${classes.formColumn}`}>
                                                     <Form

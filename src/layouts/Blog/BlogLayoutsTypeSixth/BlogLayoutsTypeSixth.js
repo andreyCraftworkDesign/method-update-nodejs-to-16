@@ -6,9 +6,6 @@ import placeholder from "../../../img/placeholder-gray.png";
 import classes from "./BlogLayoutsTypeSixth.module.css"
 import { Fade } from "react-awesome-reveal";
 
-const postForView = 5;
-const title = "Marketing";
-
 class BlogLayoutsTypeSixth extends Component {
 
     state = {

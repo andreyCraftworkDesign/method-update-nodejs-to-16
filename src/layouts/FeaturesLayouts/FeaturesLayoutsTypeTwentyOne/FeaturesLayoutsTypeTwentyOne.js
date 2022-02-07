@@ -1,10 +1,9 @@
-import React, {Component} from "react";
+import React from "react";
 
-import {Container, Col , Row} from "reactstrap";
+import {Container} from "reactstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tabs from "./Tabs/Tabs";
 import classes from "./FeaturesLayoutsTypeTwentyOne.module.css"
-
 
 
 function FeaturesLayoutsTypeTwentyOne (props) {

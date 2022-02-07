@@ -2,12 +2,10 @@ import React from "react";
 import classes from './Info.module.css';
 
 const Info = (props) => {
-    const {recipient, address,  payment, track, date} = props.data;
+    const {recipient, address,  payment} = props.data;
     const {person, phone, email} = recipient;
     const {place} = address;
     const {type, property} = payment;
-
-    console.log(props.data);
 
     return (
         <div className={`${classes.info}  ${(props.dark) ? `dark ${classes.dark}` : ''}`}>

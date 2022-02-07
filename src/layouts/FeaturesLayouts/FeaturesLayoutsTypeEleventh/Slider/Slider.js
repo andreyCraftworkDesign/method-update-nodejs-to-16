@@ -7,9 +7,6 @@ import classes from "./Slider.module.css"
 let portfolioSeventhSlider = null;
 
 class Slider extends Component {
-    constructor(props){
-        super(props);
-    }
     componentDidMount(){
         portfolioSeventhSlider = new Swiper(`.${classes.swiperContainer}`,{
             direction: getDirection(),
@@ -42,7 +39,6 @@ class Slider extends Component {
         })
 
         function getDirection() {
-            let windowWidth = window.innerWidth;
             let direction = window.innerWidth <= 768 ? 'horizontal' : 'vertical';
 
             return direction;

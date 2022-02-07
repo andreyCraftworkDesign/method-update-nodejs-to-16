@@ -1,6 +1,5 @@
 import { Row, Col, Container } from "reactstrap";
 import React, { Component } from "react";
-
 import placeholder from "../../../img/placeholder-gray.png";
 import classes from "./BlogLayoutsTypeEighth.module.css"
 import { Fade } from "react-awesome-reveal";
@@ -22,21 +21,21 @@ class BlogLayoutsTypeEighth extends Component {
                                 <Col lg="3" sm="10" className="mx-auto">
                                     <div className={classes.sticky}>
                                         <SocialsLinks>
-                                            <a href="#">
+                                            <a href="/">
                                                 <Oval
                                                   variant="normal"
                                                 >
                                                     <Twitter/>
                                                 </Oval>
                                             </a>
-                                            <a href="#">
+                                            <a href="/">
                                                 <Oval
                                                   variant="normal"
                                                 >
                                                     <LinkedIn/>
                                                 </Oval>
                                             </a>
-                                            <a href="#">
+                                            <a href="/">
                                                 <Oval
                                                   variant="normal"
                                                 >
@@ -74,13 +73,13 @@ class BlogLayoutsTypeEighth extends Component {
                                         </div>
                                         <div className={classes.bottom}>
                                             <SocialsLinks  dark={this.props.dark ? true : false}>
-                                                <a href="#">
+                                                <a href="/">
                                                     <Twitter/>
                                                 </a>
-                                                <a href="#">
+                                                <a href="/">
                                                     <LinkedIn/>
                                                 </a>
-                                                <a href="#">
+                                                <a href="/">
                                                     <Google/>
                                                 </a>
                                             </SocialsLinks>

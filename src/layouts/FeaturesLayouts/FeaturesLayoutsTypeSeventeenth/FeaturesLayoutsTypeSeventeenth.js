@@ -85,7 +85,7 @@ class FeaturesLayoutsTypeSeventeenth extends Component {
         return (
             <div>
                 <section className={`section ${classes.features} ${(this.props.dark) ?  `dark ${classes.dark}` : ''}`}>
-                    <Container className={classes.container}>
+                    <Container fluid={true} className={classes.container}>
                         <Row className={classes.headerRow}>
                             <Col lg="10" md="10" className={`mx-auto text-center ${classes.col}`}>
                                 <div className={classes.gridWrapper}>

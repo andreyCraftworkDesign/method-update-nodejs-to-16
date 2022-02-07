@@ -3,8 +3,7 @@ import classes from "./Header.module.css"
 import {Navbar} from "react-bootstrap";
 import {MethodLogotype, FavoriteBorder, User, Cart, Menu } from "../../../../components/Icons/Icons";
 
-import { Input, Badge } from 'antd';
-const { Search } = Input;
+import { Badge } from 'antd';
 
 const Header = (props) => {
     return (
@@ -27,13 +26,13 @@ const Header = (props) => {
                 </div>
                     <Navbar>
                         <div className={classes.active}>
-                            <a>
+                            <a href="/">
                                 <FavoriteBorder/>
                             </a>
-                            <a>
+                            <a href="/">
                                 <User/>
                             </a>
-                            <a onClick={props.triggerCart}>
+                            <a onClick={props.triggerCart} href="/">
                                 <Badge dot={props.subtotal > 0}>
                                     <Cart/>
                                 </Badge>

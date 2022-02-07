@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Header.module.css"
 import {Nav, Navbar, Form, FormControl} from "react-bootstrap";
-import {AppLogo, MethodLogotype} from "../../../../components/Icons/Icons";
+import {MethodLogotype} from "../../../../components/Icons/Icons";
 import Socials from "../Socials/Socials";
 import { Input } from 'antd';
 const { Search } = Input;

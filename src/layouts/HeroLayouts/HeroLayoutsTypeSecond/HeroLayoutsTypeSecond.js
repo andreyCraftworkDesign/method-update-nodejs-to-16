@@ -10,13 +10,11 @@ import Socials from "../../../components/Socials/Socials";
 import placeholder from "../../../img/IphoneXS.png";
 import placeholderDark from "../../../img/IphoneXS-dark.png";
 import classes from "./HeroLayoutsTypeSecond.module.css"
-import { Fade } from "react-awesome-reveal";
 
 const title = "Invite friends & earn rewards";
 const description = "Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!";
 
 function HeroLayoutsTypeSecond (props) {
-
 
       return (
           <React.Fragment>
@@ -51,22 +49,22 @@ function HeroLayoutsTypeSecond (props) {
 
                                                   <div className="socials">
                                                           <Socials>
-                                                              <a href="#">
+                                                              <a href="/">
                                                                   <Twitter/>
                                                               </a>
-                                                              <a href="#">
+                                                              <a href="/">
                                                                   <LinkedIn/>
                                                               </a>
-                                                              <a href="#">
+                                                              <a href="/">
                                                                   <Google/>
                                                               </a>
                                                           </Socials>
                                                   </div>
                                               </Col>
                                               <Col lg={{ size: 4, offset: 1}} md={{ size: 5}} sm={6} className="right-column">
-                                                      {(props.dark == true) ?
-                                                          <img src={placeholderDark} className={"w-100"}/> :
-                                                          <img src={placeholder} className={"w-100"}/>
+                                                      {(props.dark === true) ?
+                                                          <img src={placeholderDark} className={"w-100"} alt="placeholder"/> :
+                                                          <img src={placeholder} className={"w-100"} alt="placeholder"/>
                                                       }
                                               </Col>
                                           </Row>
@@ -86,22 +84,22 @@ function HeroLayoutsTypeSecond (props) {
 
                                                   <div className="socials">
                                                           <Socials>
-                                                              <a href="#">
+                                                              <a href="/">
                                                                   <Twitter/>
                                                               </a>
-                                                              <a href="#">
+                                                              <a href="/">
                                                                   <LinkedIn/>
                                                               </a>
-                                                              <a href="#">
+                                                              <a href="/">
                                                                   <Google/>
                                                               </a>
                                                           </Socials>
                                                   </div>
                                               </Col>
                                               <Col lg={{ size: 4, offset: 1}} md={{ size: 5}} sm={6} className="right-column">
-                                                      {(props.dark == true) ?
-                                                          <img src={placeholderDark} className={"w-100"}/> :
-                                                          <img src={placeholder} className={"w-100"}/>
+                                                      {(props.dark === true) ?
+                                                          <img src={placeholderDark} className={"w-100"} alt="placeholder"/> :
+                                                          <img src={placeholder} className={"w-100"} alt="placeholder"/>
                                                       }
 
                                               </Col>
@@ -122,22 +120,22 @@ function HeroLayoutsTypeSecond (props) {
 
                                                   <div className="socials">
                                                           <Socials>
-                                                              <a href="#">
+                                                              <a href="/">
                                                                   <Twitter/>
                                                               </a>
-                                                              <a href="#">
+                                                              <a href="/">
                                                                   <LinkedIn/>
                                                               </a>
-                                                              <a href="#">
+                                                              <a href="/">
                                                                   <Google/>
                                                               </a>
                                                           </Socials>
                                                   </div>
                                               </Col>
                                               <Col lg={{ size: 4, offset: 1}} md={{ size: 5}} sm={6} className="right-column">
-                                                      {(props.dark == true) ?
-                                                          <img src={placeholderDark} className={"w-100"}/> :
-                                                          <img src={placeholder} className={"w-100"}/>
+                                                      {(props.dark === true) ?
+                                                          <img src={placeholderDark} className={"w-100"} alt="placeholder"/> :
+                                                          <img src={placeholder} className={"w-100"} alt="placeholder"/>
                                                       }
                                               </Col>
                                           </Row>

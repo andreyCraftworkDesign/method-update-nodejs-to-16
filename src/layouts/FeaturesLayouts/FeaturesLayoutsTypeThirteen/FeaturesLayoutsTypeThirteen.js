@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React  from "react";
 
 import {Container, Col , Row} from "reactstrap";
 import image from '../../../img/block.png'
@@ -33,11 +33,11 @@ function FeaturesLayoutsTypeThirteen (props) {
 
                 <Container fluid={true} className={`container-fluid p-0 ${classes.containerFluid}`}>
                     <Fade up delay={100} triggerOnce={true}>
-                        {props.dark == true ?
+                        {props.dark === true ?
                             <>
                                 <img
                                     src={imageDark}
-                                    alt=""
+                                    alt="placeholder"
                                     width="1400"
                                     height="615"
                                 />
@@ -46,7 +46,7 @@ function FeaturesLayoutsTypeThirteen (props) {
                             <>
                                 <img
                                     src={image}
-                                    alt=""
+                                    alt="placeholder"
                                     width="1400"
                                     height="615"
                                 />

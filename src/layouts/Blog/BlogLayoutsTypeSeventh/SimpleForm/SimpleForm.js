@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./SimpleForm.module.css"
-import {Form, FormControl, InputGroup} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import {Col} from "reactstrap";
-import {Email, EmailIcon, UserIcon} from "../../../../components/Icons/Icons";
+import {Email} from "../../../../components/Icons/Icons";
 import Button from "../../../../components/Button/Button";
 import CustomInput from "../../../../components/CustomInput/CustomInput";
 
@@ -18,7 +18,7 @@ const SimpleForm = (props) => {
                             simple={false}
                             leftIcon={true}
                             icon={<Email/>}
-                            dark={(props.dark == true) ?  true : null}
+                            dark={(props.dark === true) ?  true : null}
                             type="email"
                             placeholder="Type your email"
                             size="big"

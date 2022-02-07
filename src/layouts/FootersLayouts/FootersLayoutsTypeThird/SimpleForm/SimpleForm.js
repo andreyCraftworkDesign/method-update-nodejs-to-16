@@ -15,7 +15,7 @@ const SimpleForm = (props) => {
                             controlId="formGridEmail"
                             type="email"
                             name="name"
-                            dark={(props.dark == true) ?  true : null}
+                            dark={(props.dark === true) ?  true : null}
                             placeholder="Type your e-mail"
                         />
 

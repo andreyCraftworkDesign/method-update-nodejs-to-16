@@ -21,12 +21,12 @@ const Widgets = (props) => {
                 <Col lg={6} md={6} sm={6} xs={6} className={classes.leftColumn}>
                     <Row xs={1}>
                         <Col className={classes.item}>
-                            {props.dark == true ?
+                            {props.dark === true ?
                                 <>
                                 <Fade top delay={50} triggerOnce={true}>
                                     <img
                                         src={widgetDark01}
-                                        alt=""
+                                        alt="placeholder"
                                     />
                                 </Fade>
                                 </>
@@ -35,19 +35,19 @@ const Widgets = (props) => {
                                 <Fade top delay={50} triggerOnce={true}>
                                     <img
                                         src={widget01}
-                                        alt=""
+                                        alt="placeholder"
                                     />
                                 </Fade>
                                 </>
                             }
                         </Col>
                         <Col className={classes.item}>
-                            {props.dark == true ?
+                            {props.dark === true ?
                                 <>
                                 <Fade top delay={100} triggerOnce={true}>
                                     <img
                                         src={widgetDark02}
-                                        alt=""
+                                        alt="placeholder"
                                     />
                                 </Fade>
                                 </>
@@ -56,7 +56,7 @@ const Widgets = (props) => {
                                 <Fade top delay={100} triggerOnce={true}>
                                     <img
                                         src={widget02}
-                                        alt=""
+                                        alt="placeholder"
                                     />
                                 </Fade>
                                 </>
@@ -67,12 +67,12 @@ const Widgets = (props) => {
                 <Col lg={6} md={6} sm={6} xs={6} className={classes.rightColumn}>
                     <Row xs={1}>
                         <Col className={classes.item}>
-                            {props.dark == true ?
+                            {props.dark === true ?
                                 <>
                                 <Fade top delay={100} triggerOnce={true}>
                                     <img
                                         src={widgetDark03}
-                                        alt=""
+                                        alt="placeholder"
                                     />
                                 </Fade>
                                 </>
@@ -81,18 +81,19 @@ const Widgets = (props) => {
                                 <Fade top delay={100} triggerOnce={true}>
                                     <img
                                         src={widget03}
+                                        alt="placeholder"
                                     />
                                 </Fade>
                                 </>
                             }
                         </Col>
                         <Col className={classes.item}>
-                            {props.dark == true ?
+                            {props.dark === true ?
                                 <>
                                 <Fade top delay={150} triggerOnce={true}>
                                     <img
                                         src={widgetDark04}
-                                        alt=""
+                                        alt="placeholder"
                                     />
                                 </Fade>
                                 </>
@@ -101,7 +102,7 @@ const Widgets = (props) => {
                                 <Fade top delay={150} triggerOnce={true}>
                                     <img
                                         src={widget04}
-                                        alt=""
+                                        alt="placeholder"
                                     />
                                 </Fade>
                                 </>

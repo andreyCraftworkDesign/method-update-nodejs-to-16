@@ -143,7 +143,7 @@ class BlogLayoutsTypeSecond extends Component {
                                 <Col lg="4" md="6" sm="6" xs="6" className={classes.right}>
                                     <CustomInput
                                         controlId="FormInputName"
-                                        dark={(this.props.dark == true) ? true : null}
+                                        dark={(this.props.dark === true) ? true : null}
                                         name="name"
                                         placeholder="Search"
                                         simple={false}

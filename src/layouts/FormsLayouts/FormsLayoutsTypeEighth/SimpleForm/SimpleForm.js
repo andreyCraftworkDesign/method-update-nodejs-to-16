@@ -1,5 +1,5 @@
 import React from "react";
-import {Form, FormControl, InputGroup} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import {Col} from "reactstrap";
 import {EmailIcon, UserIcon, Lock} from "../../../../components/Icons/Icons";
 import Button from "../../../../components/Button/Button";
@@ -16,7 +16,7 @@ const SimpleForm = (props) => {
                     <CustomInput
                         classes={`col-12 ${classes.p15} ${classes.item} ${props.classes}`}
                         controlId="FormInputName"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Username"
                         name="name"
                         simple={false}
@@ -26,7 +26,7 @@ const SimpleForm = (props) => {
                     <CustomInput
                         classes={`col-12 ${classes.p15} ${classes.item} ${props.classes}`}
                         controlId="FormInputUserPassword"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Email"
                         name="name"
                         simple={false}
@@ -40,7 +40,7 @@ const SimpleForm = (props) => {
                         classes={`col-lg-6 col-md-6 col-sm-6 ${classes.p15} ${classes.item} ${props.classes}`}
                         controlId="FormInputUserPassword"
                         name="name"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Password"
                         simple={false}
                         leftIcon={true}
@@ -51,7 +51,7 @@ const SimpleForm = (props) => {
                         classes={`col-lg-6 col-md-6 col-sm-6 ${classes.p15} ${classes.item} ${props.classes}`}
                         controlId="FormInputUserPasswordConfirm"
                         name="name"
-                        dark={(props.dark == true) ?  true : null}
+                        dark={(props.dark === true) ?  true : null}
                         placeholder="Confirm"
                         simple={false}
                         leftIcon={true}

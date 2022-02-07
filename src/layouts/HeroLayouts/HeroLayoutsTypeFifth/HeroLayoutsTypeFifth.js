@@ -39,7 +39,7 @@ function HeroLayoutsTypeFifth(props) {
                         <Row className={classes.contentRow}>
                             <Col lg="8" md="8" className="mx-auto text-center">
                                 <Fade top delay={50} triggerOnce={true}>
-                                    <a href="#" className={classes.logotype}>
+                                    <a href="/" className={classes.logotype}>
                                         <AppLogoBig
                                             fill={"#ffffff"}
                                         />
@@ -77,7 +77,7 @@ function HeroLayoutsTypeFifth(props) {
                                     <Col lg="10" md="10" className={`mx-auto ${classes.linkSection}`}>
                                         <Fade top delay={300} triggerOnce={true}>
                                             <a
-                                                href="#"
+                                                href="/"
                                                 className="arrow-link"
                                                 onClick={onLinksClickHandler}
                                             >

@@ -3,27 +3,26 @@ import {LinkedIn, Twitter, Google} from "../../../../components/Icons/Icons";
 import SocialsLinks from "../../../../components/Socials/Socials";
 import Oval from "../../../../components/Frame/Frame";
 
-const Socials = (props) => {
+const Socials = () => {
     return (
         <div className="socials">
             <p>Follow us</p>
             <SocialsLinks>
-                <a href="#">
+                <a href="/">
                     <Oval
                         variant="normal"
                     >
                         <Twitter/>
                     </Oval>
-
                 </a>
-                <a href="#">
+                <a href="/">
                     <Oval
                         variant="normal"
                     >
                         <LinkedIn/>
                     </Oval>
                 </a>
-                <a href="#">
+                <a href="/">
                     <Oval
                         variant="normal"
                     >

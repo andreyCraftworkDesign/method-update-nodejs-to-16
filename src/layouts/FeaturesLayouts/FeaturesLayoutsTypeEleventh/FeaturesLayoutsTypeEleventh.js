@@ -38,7 +38,7 @@ function FeaturesLayoutsTypeEleventh (props) {
                                 <Row>
                                     <Col lg={5} md={6}  className={classes.imagesColumn}>
                                         <Slider
-                                            array={props.dark == true ?darkImages : originalImages}
+                                            array={props.dark === true ?darkImages : originalImages}
                                         />
                                     </Col>
                                     <Col lg={6} md={6}  className={`${classes.headerColumn} ml-auto`}>

@@ -149,7 +149,7 @@ class BlogLayoutsTypeFifth extends Component {
                                 <Col lg="6" md="4" sm="4" className={classes.right}>
                                     {this.state.postForView < this.state.posts.length &&
                                     <Fade down triggerOnce={true}>
-                                        <a href="#" className={classes.seeAll} onClick={this.buttonClickHandler}>{title}</a>
+                                        <a href="/" className={classes.seeAll} onClick={this.buttonClickHandler}>{title}</a>
                                     </Fade>
                                     }
                                 </Col>

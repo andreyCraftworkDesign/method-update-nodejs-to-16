@@ -28,7 +28,7 @@ function CTALayoutsTypeNinth (props) {
                                             </Col>
                                             <Col lg={{ size: 5, offset: 1 }} md={{ size: 4, offset: 1 }} className={classes.rightColumn}>
                                                 <div className="position-relative">
-                                                    {props.dark == true ?
+                                                    {props.dark === true ?
                                                         <>
                                                             <Fade right triggerOnce={true}>
                                                                 <img

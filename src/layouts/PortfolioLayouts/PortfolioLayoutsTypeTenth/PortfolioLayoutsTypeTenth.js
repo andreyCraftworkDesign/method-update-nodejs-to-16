@@ -17,7 +17,6 @@ const strong = "Portfolio";
 
 function PortfolioLayoutsTypeTenth (props) {
 
-
     return (
         <React.Fragment>
             <section className={`section ${classes.portfolio} ${(props.dark) ?  `dark ${classes.dark}` : ''}`}>
@@ -37,7 +36,7 @@ function PortfolioLayoutsTypeTenth (props) {
                     <Row className={classes.sliderRow}>
                         <Col className={`p-0 ${classes.col}`}>
                                 <Slider
-                                    array={props.dark == true ? darkImages : originalImages}
+                                    array={props.dark === true ? darkImages : originalImages}
                                 />
                         </Col>
                     </Row>

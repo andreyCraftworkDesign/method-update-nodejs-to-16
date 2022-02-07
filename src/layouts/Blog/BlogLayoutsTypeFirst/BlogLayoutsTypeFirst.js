@@ -1,10 +1,8 @@
 import { Row, Col, Container } from "reactstrap";
 import React, { Component } from "react";
-
 import Tabs from "../../../components/Tabs/Tabs";
 import Card from "./Card/Card";
 import placeholder from "../../../img/placeholder-gray.png";
-import placeholderDark from "../../../img/placeholder-gray-dark.png";
 
 import classes from "./BlogLayoutsTypeFirst.module.css"
 import { Fade } from "react-awesome-reveal";
@@ -116,7 +114,7 @@ class BlogLayoutsTypeFirst extends Component {
     renderCards() {
         const card = this.state.posts;
         const listItems = card.filter((element) => {
-            if (element.category == this.state.activeCategory) {
+            if (element.category === this.state.activeCategory) {
                 return true
             }
         }

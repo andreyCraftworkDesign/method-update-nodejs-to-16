@@ -22,7 +22,7 @@ function CTALayoutsTypeFirst (props) {
                         <Col lg={4} md={5} sm={9} xs={9} className={classes.leftColumn}>
                             <Fade left triggerOnce={true}>
                                         <img
-                                            src={props.dark == true ? mockupDark : mockup}
+                                            src={props.dark === true ? mockupDark : mockup}
                                             alt=""
                                             width="350"
                                             height="700"

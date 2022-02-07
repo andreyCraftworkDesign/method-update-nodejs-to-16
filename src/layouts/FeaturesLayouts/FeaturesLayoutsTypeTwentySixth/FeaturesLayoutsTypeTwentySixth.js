@@ -20,11 +20,11 @@ function FeaturesLayoutsTypeTwentySixth(props) {
               <Col lg={6} md={6} className={classes.leftColumn}>
                   {props.dark === true ?
                       <>
-                        <img src={mockupDark} />
+                        <img src={mockupDark} alt="placeholder" />
                       </>
                       :
                       <>
-                        <img src={mockup} />
+                        <img src={mockup} alt="placeholder" />
                       </>
                     }
               </Col>

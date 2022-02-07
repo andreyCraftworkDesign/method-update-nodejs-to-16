@@ -22,7 +22,7 @@ function FormsLayoutsTypeEleventh(props) {
                                     <Row>
                                         <Col className="col-12 d-flex justify-content-between align-items-center">
                                             <h2>{title}</h2>
-                                            <a href="#" className={`text-right ${classes.loginLink}`}>Sign up</a>
+                                            <a href="/" className={`text-right ${classes.loginLink}`}>Sign up</a>
                                         </Col>
                                         <Col className={`col-12 ${classes.formColumn}`}>
                                             <Form

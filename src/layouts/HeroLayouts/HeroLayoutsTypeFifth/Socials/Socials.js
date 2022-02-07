@@ -8,22 +8,21 @@ const Socials = (props) => {
         <div className="socials">
             <p>Follow us</p>
             <SocialsLinks>
-                <a href="#">
+                <a href="/">
                     <Oval
                         variant="normal"
                     >
                         <Twitter/>
                     </Oval>
-
                 </a>
-                <a href="#">
+                <a href="/">
                     <Oval
                         variant="normal"
                     >
                         <LinkedIn/>
                     </Oval>
                 </a>
-                <a href="#">
+                <a href="/">
                     <Oval
                         variant="normal"
                     >

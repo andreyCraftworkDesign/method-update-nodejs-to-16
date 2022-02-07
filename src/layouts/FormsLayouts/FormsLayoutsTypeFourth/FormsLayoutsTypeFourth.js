@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import Form from "./SimpleForm/SimpleForm";
 
 import {Container, Col , Row} from "reactstrap";
@@ -37,7 +37,7 @@ function FormsLayoutsTypeFourth (props) {
                                             <Row>
                                                 <Col className="col-12 d-flex justify-content-between align-items-center">
                                                     <h3>Create an account</h3>
-                                                    <a href="#" className={`text-right ${classes.loginLink}`}>Login</a>
+                                                    <a href="/" className={`text-right ${classes.loginLink}`}>Login</a>
                                                 </Col>
                                                 <Col className={`col-12 ${classes.formColumn}`}>
                                                     <Form
@@ -50,17 +50,17 @@ function FormsLayoutsTypeFourth (props) {
                                                         <Socials
                                                             dark={props.dark ? true : false}
                                                         >
-                                                            <a href="#/some-link">
+                                                            <a href="/some-link">
                                                                 <Oval variant="normal">
                                                                     <Twitter/>
                                                                 </Oval>
                                                             </a>
-                                                            <a href="#/some-link">
+                                                            <a href="/some-link">
                                                                 <Oval variant="normal">
                                                                     <LinkedIn/>
                                                                 </Oval>
                                                             </a>
-                                                            <a href="#/some-link">
+                                                            <a href="/some-link">
                                                                 <Oval variant="normal">
                                                                     <Google/>
                                                                 </Oval>

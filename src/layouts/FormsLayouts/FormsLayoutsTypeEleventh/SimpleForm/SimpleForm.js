@@ -1,10 +1,9 @@
 import React from "react";
-import { Form, FormControl, InputGroup } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import { Col } from "reactstrap";
-import { EmailIcon, UserIcon, Lock } from "../../../../components/Icons/Icons";
+import { EmailIcon, Lock } from "../../../../components/Icons/Icons";
 import Button from "../../../../components/Button/Button";
 import 'antd/dist/antd.css';
-import { Checkbox } from 'antd';
 import classes from "./SimpleForm.module.css"
 import CustomInput from "../../../../components/CustomInput/CustomInput";
 
@@ -16,7 +15,7 @@ const SimpleForm = (props) => {
                     <CustomInput
                         classes={`col-12 ${classes.p15} ${classes.item} ${props.classes}`}
                         controlId="FormInputUserPassword"
-                        dark={(props.dark == true) ? true : null}
+                        dark={(props.dark === true) ? true : null}
                         placeholder="Email"
                         name="name"
                         simple={false}
@@ -28,7 +27,7 @@ const SimpleForm = (props) => {
                         classes={`col-12 ${classes.p15} ${classes.item} ${props.classes}`}
                         controlId="FormInputUserPassword"
                         name="password"
-                        dark={(props.dark == true) ? true : null}
+                        dark={(props.dark === true) ? true : null}
                         placeholder="Password"
                         simple={false}
                         leftIcon={true}

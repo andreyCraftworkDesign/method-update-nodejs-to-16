@@ -1,17 +1,12 @@
 import React, {Component} from "react";
-
-import {Container, Col , Row} from "reactstrap";
+import {Container, Row} from "reactstrap";
 import Testimonial from "./Testimonial/TestimonialsTypeFirst";
 import 'swiper/css/swiper.min.css'
 import {Avatar} from "antd";
 import {User} from "../../../components/Icons/Icons";
 import classes from "./HeroLayoutsTypeEleventh.module.css"
-import {Fade} from "react-awesome-reveal";
 import Swiper from 'swiper';
 import Slider from "../HeroLayoutsTypeEleventh/Slider/Slider";
-const titleText = 'What People Are Saying';
-const strongText = "Testimonials";
-
 
 class HeroLayoutsTypeEleventh extends Component {
 
@@ -75,7 +70,6 @@ class HeroLayoutsTypeEleventh extends Component {
     }
 
     componentDidMount(){
-
 
             this.swiper = new Swiper(`.${classes.swiperContainer}`,{
                 slidesPerView: 1,

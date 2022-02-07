@@ -8,7 +8,7 @@ const Socials = (props) => {
         <div className="socials">
             <p>{props.text}</p>
             <SocialsLinks>
-                <a href="#">
+                <a href="/">
                     <Oval
                         variant="normal"
                     >
@@ -16,14 +16,14 @@ const Socials = (props) => {
                     </Oval>
 
                 </a>
-                <a href="#">
+                <a href="/">
                     <Oval
                         variant="normal"
                     >
                         <LinkedIn/>
                     </Oval>
                 </a>
-                <a href="#">
+                <a href="/">
                     <Oval
                         variant="normal"
                     >

@@ -38,11 +38,11 @@ function FeaturesLayoutsTypeTwentyEighth(props) {
                   >
                     {props.dark === true ?
                       <>
-                        <img width={47} height={50} src={slackLogoDark} />
+                        <img width={47} height={50} src={slackLogoDark} alt="placeholder" />
                       </>
                       :
                       <>
-                        <img width={47} height={50} src={slackLogo} />
+                        <img width={47} height={50} src={slackLogo} alt="placeholder" />
                       </>
                     }
                   </Feature>
@@ -57,11 +57,11 @@ function FeaturesLayoutsTypeTwentyEighth(props) {
                   >
                      {props.dark === true ?
                       <>
-                         <img width={45} height={50} src={trelloLogoDark} />
+                         <img width={45} height={50} src={trelloLogoDark} alt="placeholder" />
                       </>
                       :
                       <>
-                         <img width={45} height={50} src={trelloLogo} />
+                         <img width={45} height={50} src={trelloLogo} alt="placeholder" />
                       </>
                     }
                   </Feature>
@@ -76,11 +76,11 @@ function FeaturesLayoutsTypeTwentyEighth(props) {
                   >
                      {props.dark === true ?
                       <>
-                          <img width={35} height={50} src={figmaLogoDark} />
+                          <img width={35} height={50} src={figmaLogoDark} alt="placeholder" />
                       </>
                       :
                       <>
-                          <img width={35} height={50} src={figmaLogo} />
+                          <img width={35} height={50} src={figmaLogo} alt="placeholder" />
                       </>
                     }
                   </Feature>

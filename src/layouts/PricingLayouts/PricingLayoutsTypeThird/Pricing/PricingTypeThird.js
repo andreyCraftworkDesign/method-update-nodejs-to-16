@@ -6,11 +6,8 @@ import classes from "./PricingTypeThird.module.css"
 import {Check} from "../../../../components/Icons/Icons";
 import {List} from 'antd';
 
-const baseText = `per user ` + `\n` + `per month`;
-const baseLinkText = `Learn More`;
-
 const PricingTypeThird = (props) => {
-
+    const baseLinkText = `Learn More`;
     return (
         <div className={`${classes.price}  ${(props.dark) ?  `${classes.dark}` : ''}`}>
             <div className={classes.inner}>

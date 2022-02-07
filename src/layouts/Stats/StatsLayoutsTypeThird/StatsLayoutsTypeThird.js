@@ -153,7 +153,7 @@ class StatsLayoutsTypeThird extends Component {
                                     <div className={classes.chartWrapper}>
                                         <Fade top delay={100} triggerOnce={true}>
                                             <Chart
-                                                data={this.props.dark == true ? this.state.city[this.state.activeCity].chartData.dark :this.state.city[this.state.activeCity].chartData.origin }
+                                                data={this.props.dark === true ? this.state.city[this.state.activeCity].chartData.dark :this.state.city[this.state.activeCity].chartData.origin }
                                             />
                                         </Fade>
                                     </div>

@@ -6,9 +6,6 @@ import Oval from "../../../../components/Frame/Frame";
 import {ChevronRight, ChevronLeft} from "../../../../components/Icons/Icons";
 
 class Slider extends Component {
-    constructor(props){
-        super(props);
-    }
     componentDidMount(){
         this.swiper=new Swiper(`.${classes.swiperContainer}`,{
             slidesPerView: 2,

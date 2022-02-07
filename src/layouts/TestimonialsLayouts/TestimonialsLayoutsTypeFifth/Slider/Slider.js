@@ -6,9 +6,6 @@ import {ChevronRight, ChevronLeft} from "../../../../components/Icons/Icons";
 import classes from "./Slider.module.css"
 
 class Slider extends Component {
-    constructor(props){
-        super(props);
-    }
 
     componentDidMount(){
         this.swiper=new Swiper(`.${classes.swiperContainer}`,{

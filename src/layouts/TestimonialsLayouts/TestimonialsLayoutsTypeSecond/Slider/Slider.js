@@ -4,17 +4,12 @@ import classes from "./Slider.module.css"
 import Swiper from 'swiper';
 import Oval from "../../../../components/Frame/Frame";
 import {
-    SimpleRightArrow,
-    SimpleLeftArrowCustom,
     Group,
     ChevronLeft,
     ChevronRight
 } from "../../../../components/Icons/Icons";
 
 class Slider extends Component {
-    constructor(props){
-        super(props);
-    }
     componentDidMount(){
         let galleryThumbs = new Swiper(`.${classes.galleryThumbs}`,{
             spaceBetween: 10,
@@ -60,7 +55,7 @@ class Slider extends Component {
                                         <>
                                             {el != null ?
                                                 <div className={`swiper-slide ${classes.swiperSlide}`} key={index}>
-                                                    <img src={el}/>
+                                                    <img src={el} alt="placeholder"/>
                                                 </div> :
                                                 <div className={`swiper-slide blue ${classes.swiperSlide} ${classes.blue}`} key={index}>
                                                     <Group fill="#ffffff"/>

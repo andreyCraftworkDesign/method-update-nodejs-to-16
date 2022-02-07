@@ -2,14 +2,10 @@ import React,{Component} from 'react';
 import 'swiper/css/swiper.min.css'
 import Swiper from 'swiper';
 import Oval from "../../../../components/Frame/Frame";
-import {SimpleRightArrow, SimpleLeftArrowCustom, ChevronRight, ChevronLeft} from "../../../../components/Icons/Icons";
+import {ChevronRight, ChevronLeft} from "../../../../components/Icons/Icons";
 import classes from "./Slider.module.css"
 
 class Slider extends Component {
-    constructor(props){
-        super(props);
-    }
-
         componentDidMount(){
             this.swiper=new Swiper(`.${classes.swiperContainer}`,{
                 slidesPerView: 1,

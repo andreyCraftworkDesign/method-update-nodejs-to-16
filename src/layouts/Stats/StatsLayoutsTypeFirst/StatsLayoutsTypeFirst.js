@@ -321,7 +321,7 @@ class StatsLayoutsTypeFirst extends Component {
                                     <div className={classes.chartWrapper}>
                                         <Fade delay={200} triggerOnce={true}>
                                             <LinesCustom
-                                                data={this.props.dark == true ? this.state.period[this.state.activeType].chartData.dark.lines :this.state.period[this.state.activeType].chartData.origin.lines }
+                                                data={this.props.dark === true ? this.state.period[this.state.activeType].chartData.dark.lines :this.state.period[this.state.activeType].chartData.origin.lines }
                                             />
                                         </Fade>
                                     </div>
@@ -342,7 +342,7 @@ class StatsLayoutsTypeFirst extends Component {
                                             <Fade down delay={150} triggerOnce={true}>
                                                 <div className={classes.chartWrapper}>
                                                     <BarCustom
-                                                        data={this.props.dark == true ? this.state.period[this.state.activeType].chartData.dark.bars :this.state.period[this.state.activeType].chartData.origin.bars }
+                                                        data={this.props.dark === true ? this.state.period[this.state.activeType].chartData.dark.bars :this.state.period[this.state.activeType].chartData.origin.bars }
                                                         width={100}
                                                         height={25}
                                                     />
@@ -377,7 +377,7 @@ class StatsLayoutsTypeFirst extends Component {
                                                     <div className={classes.right}>
                                                         <Pie
                                                             key={uuidv4()}
-                                                            data={this.props.dark == true ? this.state.period[this.state.activeType].chartData.dark.pie : this.state.period[this.state.activeType].chartData.origin.pie }
+                                                            data={this.props.dark === true ? this.state.period[this.state.activeType].chartData.dark.pie : this.state.period[this.state.activeType].chartData.origin.pie }
                                                             width={100}
                                                             height={78}
                                                             options={{

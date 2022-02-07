@@ -7,9 +7,6 @@ import {Col} from "reactstrap";
 
 
 class Slider extends Component {
-    constructor(props){
-        super(props);
-    }
     componentDidMount(){
 
         this.swiper = new Swiper(`.${classes.swiperContainer}`,{

@@ -3,7 +3,7 @@ import React, {Component} from "react";
 import {Fade} from "react-awesome-reveal";
 import classes from "./StatsLayoutsTypeEleventh.module.css"
 
-import {HorizontalBar, Bar} from 'react-chartjs-2'
+import {Bar} from 'react-chartjs-2'
 
 const dataBar = {
     labels: ['1', '2', '3', '4', '5', '6', 7],
@@ -70,81 +70,6 @@ const optionsBar = {
         }
     }
 }
-
-// const data = {
-//     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-//     datasets: [
-//         {
-//             label: "Desktop",
-//             stack: "Stack 0",
-//             backgroundColor: "#345DEE",
-//             data: [10, 20, 30, 40, 50, 60],
-//         },
-//         {
-//             label: "Smartphone",
-//             stack: "Stack 0",
-//             backgroundColor: "#EE3465",
-//             data: [10, 15, 30, 60, 50, 40].map((k) => -k),
-//         },
-//     ],
-// }
-//
-// const options = {
-//         tooltips: {
-//             intersect: false,
-//             callbacks: {
-//                 label: (c) => {
-//                     const value = Number(c.value);
-//                     const positiveOnly = value < 0 ? -value : value;
-//                     let retStr = "";
-//                     if (c.datasetIndex === 0) {
-//                         retStr += `Male: ${positiveOnly.toString()}`;
-//                     } else {
-//                         retStr += `Female: ${positiveOnly.toString()}`;
-//                     }
-//                     return retStr;
-//                 },
-//             },
-//         },
-//         responsive: true,
-//         legend: {
-//             display: true,
-//             position: "bottom",
-//             align: 'start',
-//             labels: {
-//                 padding: 30,
-//                 boxWidth: 8,
-//                 usePointStyle: true,
-//             }
-//         },
-//         scales: {
-//             xAxes: [
-//                 {
-//                     stacked: false,
-//                     ticks: {
-//                         beginAtZero: true,
-//                         callback: (v) => {
-//                             return v < 0 ? -v : v;
-//                         },
-//                     },
-//                 },
-//             ],
-//             yAxes: [
-//                 {
-//                     stacked: true,
-//                     ticks: {
-//                         beginAtZero: true,
-//                     },
-//                     position: "left",
-//                 }
-//             ],
-//         },
-//         plugins: {
-//             datalabels: {
-//                 display: false,
-//             }
-//         }
-// }
 
 const data = {
     labels: ['Jun', 'Feb', 'Mar', 'Apr', 'May', ],

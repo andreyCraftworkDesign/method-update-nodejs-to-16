@@ -1,9 +1,8 @@
 import React from "react";
 import classes from "./PricingTypeFourth.module.css"
 
-const baseText = `per user ` + `\n` + `per month`;
-
 const PricingTypeFourth = (props) => {
+    const baseText = `per user ` + `\n` + `per month`;
 
     return (
         <div className={`${classes.price} ${classes.find}  ${(props.classes)}  ${(props.dark) ?  `dark ${classes.dark}` : ''}`} onClick={props.onClick} id={props.id}>

@@ -134,7 +134,7 @@ class TestimonialsLayoutsTypeNinth extends Component {
                                 <Col className={`col-auto ml-auto text-right d-flex align-items-center ${classes.col}`}>
                                 {this.state.renderPerson <= 3 &&
                                   <Fade down triggerOnce={true}>
-                                      <a href="#" className={classes.seeAll} onClick={this.buttonClickHandler}>See All</a>
+                                      <a href="/" className={classes.seeAll} onClick={this.buttonClickHandler}>See All</a>
                                   </Fade>
                                 }
                                 </Col>

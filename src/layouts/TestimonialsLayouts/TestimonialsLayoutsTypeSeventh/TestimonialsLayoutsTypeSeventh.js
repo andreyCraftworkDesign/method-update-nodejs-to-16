@@ -3,7 +3,7 @@ import React, {Component} from "react";
 import "bootstrap/dist/css/bootstrap.css";
 
 import Testimonial from "./Testimonial/TestimonialTypeSeventh";
-import {Google, LinkedIn, Twitter, User} from "../../../components/Icons/Icons";
+import {User} from "../../../components/Icons/Icons";
 import {Avatar} from "antd";
 import classes from "./TestimonialsLayoutsTypeSeventh.module.css"
 import {Fade} from "react-awesome-reveal";

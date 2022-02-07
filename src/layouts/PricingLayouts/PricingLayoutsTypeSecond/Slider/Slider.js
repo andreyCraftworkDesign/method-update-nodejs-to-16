@@ -9,10 +9,6 @@ let pricingSecondSlider = null;
 let mediaQuerySize = 575;
 
 class Slider extends Component {
-    constructor(props){
-        super(props);
-    }
-
     componentDidMount() {
 
         $(window).on('load resize', function () {

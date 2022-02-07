@@ -63,7 +63,7 @@ class PricingLayoutsTypeFourth extends Component {
     renderCards () {
         const card = this.state.pricing;
         const listItems = card.map((item, index) => {
-            {if(item.id == this.state.activeIndex) {
+            {if(item.id === this.state.activeIndex) {
                 return (
                     <Col lg="6" md="6" className={classes.item} key={index}>
                         <Pricing

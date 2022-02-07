@@ -157,7 +157,7 @@ class TeamLayoutsTypeEleventh  extends Component {
                                         {this.state.person[this.state.activePerson].picture != null ?
                                             <img src={this.state.person[this.state.activePerson].picture} alt="person" />
                                             :
-                                            <img src={this.props.dark == true ? placeholderDark : placeholder} alt="person" />
+                                            <img src={this.props.dark === true ? placeholderDark : placeholder} alt="person" />
                                         }
                                     </>
                                     </Fade>

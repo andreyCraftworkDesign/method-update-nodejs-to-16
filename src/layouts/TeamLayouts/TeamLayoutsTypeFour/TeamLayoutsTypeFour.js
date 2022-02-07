@@ -138,7 +138,7 @@ class TeamLayoutsTypeFour extends Component {
     renderCards () {
         const card = this.state.persons;
         const listItems = card.filter((element) => {
-                if (element.city == this.state.activeCity) {
+                if (element.city === this.state.activeCity) {
                     return true
                 }
             }
@@ -195,7 +195,7 @@ class TeamLayoutsTypeFour extends Component {
                                         <h1 className="text-left">{title}</h1>
                                     </Fade>
                                 </Col>
-                                <Col lg="3" md="4" sm="6" sm="8" xs="11" className={`d-flex align-items-center ${classes.rightColumn}`}>
+                                <Col lg="3" md="4" sm="8" xs="11" className={`d-flex align-items-center ${classes.rightColumn}`}>
                                         <div style={{width: '100%'}}>
                                             <Fade down delay={50} triggerOnce={true}>
                                             <Tabs

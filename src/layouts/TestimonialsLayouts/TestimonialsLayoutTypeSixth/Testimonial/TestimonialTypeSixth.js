@@ -1,7 +1,5 @@
 import React from "react";
-import {Col, Row} from "reactstrap";
 import classes from "./TestimonialTypeSixth.module.css"
-
 
 const TestimonialTypeSixth = (props) => {
 

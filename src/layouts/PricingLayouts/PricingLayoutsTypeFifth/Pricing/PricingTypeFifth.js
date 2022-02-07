@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../../../../components/Button/Button";
-import SimpleList from "../../../../components/SimpleList/SimpleList";
-import {Collapse, List,} from 'antd';
+import {List} from 'antd';
 import classes from "./PricingTypeFifth.module.css"
 
 const firstLinkText = `Select Plan`;

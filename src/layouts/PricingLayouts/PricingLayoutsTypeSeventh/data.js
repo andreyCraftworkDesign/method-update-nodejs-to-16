@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Alert, Check, Close } from "../../../components/Icons/Icons";
 import { Tooltip } from 'antd';
 
@@ -7,7 +7,7 @@ export const firstColumns = [
       title: 'Usage',
       dataIndex: 'name',
       key: 'name',
-      render: text => <a>{text}</a>,
+      render: text => <span>{text}</span>,
     },
     {
       title: 'Start',
@@ -246,4 +246,3 @@ export const firstColumns = [
       pro: false,
     }
   ];
-  

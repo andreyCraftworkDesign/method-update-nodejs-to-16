@@ -1,8 +1,7 @@
 import React from "react";
 import classes from "./PricingTypeFirst.module.css"
 import Button from "../../../../components/Button/Button";
-import SimpleList from "../../../../components/SimpleList/SimpleList";
-import {Collapse, List,} from 'antd';
+import {List,} from 'antd';
 import {Flash} from "../../../../components/Icons/Icons";
 
 

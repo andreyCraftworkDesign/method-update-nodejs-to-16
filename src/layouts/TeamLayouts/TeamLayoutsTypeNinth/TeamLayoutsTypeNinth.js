@@ -10,8 +10,6 @@ import {Avatar} from "antd";
 import {Google, LinkedIn, Twitter, User} from "../../../components/Icons/Icons";
 import Socials from "../../../components/Socials/Socials";
 import { Fade } from "react-awesome-reveal";
-import {v4 as uuidv4} from "uuid";
-
 
 const title = "Our Team";
 const description = "Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!";

@@ -190,7 +190,7 @@ class PortfolioLayoutsTypeThird extends Component {
         event.preventDefault();
         const card = this.state.projects;
         const listItems = card.filter((element) => {
-                if (element.category == this.state.activeCategory) {
+                if (element.category === this.state.activeCategory) {
                     return true
                 }
             }
@@ -209,7 +209,7 @@ class PortfolioLayoutsTypeThird extends Component {
     renderCards () {
         const card = this.state.projects;
         const listItems = card.filter((element) => {
-                if (element.category == this.state.activeCategory) {
+                if (element.category === this.state.activeCategory) {
                     return true
                 }
             }
@@ -233,7 +233,7 @@ class PortfolioLayoutsTypeThird extends Component {
                                     />
                                     :
                                     <img
-                                        src={this.props.dark == true ? placeholderDark : placeholder}
+                                        src={this.props.dark === true ? placeholderDark : placeholder}
                                         alt="placeholder"
                                         width="350"
                                         height="420"

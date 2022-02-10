@@ -25,7 +25,7 @@
     height: auto;
 }
 .portfolio img {
-    height: fill-available;
+    height: 100%;
 }
 .link {
     display: block;
